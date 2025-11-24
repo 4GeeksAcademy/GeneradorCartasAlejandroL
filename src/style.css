@@ -2,12 +2,36 @@
 
 body{
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     height: 20rem;
     width: 15rem;
     border: 2px solid black;
-
+    padding: 6px;
+}
+.partesuperior{
+    display: flex-end;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.partemedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: black;
+    font-size: 4rem;
+}
+.parteinferior{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: auto;
+    font-size: 2rem;
 }
